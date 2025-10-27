@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="stylepaginaproducto.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 9</title>
+</head>
+
+<body>
+
+
+
+
+    <div class="barra">
+        <div><img src="img/logo.png" alt="logo" class="logo"></div>
+        <div class="titulo">
+            <p>LIBRERIA FACUNDO</p>
+        </div>
+
+        <div class="buscadorr">
+            <form class="d-flex buscador" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn btn-outline-success botonbuscador" type="submit">BUSCAR</button>
+            </form>
+        </div>
+
+
+        <div class="divbotones">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle productos" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Productos
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Libros</a></li>
+                    <li><a class="dropdown-item" href="#">Juguetes </a></li>
+                    <li><a class="dropdown-item" href="#">Articulos Escolares</a></li>
+                </ul>
+            </div>
+
+            <button class="registrar"><a href="registro.html">Registrar</a></button>
+            <button class="login"><a href="login.html">Iniciar Sesión</a></button>
+        </div>
+
+
+
+        <div class="menuresponsive">
+            <button class="btnicon " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+                aria-controls="offcanvasWithBothOptions">
+                <div class="divicon"> <img class="iconn" src="icon.svg" alt="menu"></div>
+            </button>
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="tarjeta">
+        <div class="card-body cuerpotarjeta">
+            <img src="img/1.jpg" class="card-img-top imagencarrusel" alt="...">
+
+
+            <div class="descripcion">
+                <div>
+                    <h5 class="card-title  tituloproducto ">Auto a radiocontrol 1:24</h5>
+                </div>
+                <div class="precioproductodiv">
+                    <p class="card-text precioproducto">$3500</p>
+                </div>
+                <div class="descripcionproducto">
+                    <p class="card-text descripcionproducto">Auto a radiocontrol 1:24, con luces y control remoto.
+                        Ideal para niños mayores de 6 años. Baterías incluidas. Lorem, ipsum dolor sit amet
+                        consectetur
+                        adipisicing elit. Possimus delectus dignissimos nostrum dolorum libero quo similique ex?
+                        Quae
+                        deserunt optio atque aliquid sapiente soluta expedita! Impedit consectetur nobis molestiae
+                        id!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quis vitae, enim at nesciunt
+                        amet
+                        omnis repellat delectus iusto odit dolore fugit officiis voluptatem doloribus adipisci unde
+                        numquam, natus consequuntur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic
+                        cumque iste eos obcaecati laborum similique doloribus reiciendis? Quibusdam, dicta est.
+                        Repellendus rerum culpa excepturi itaque non placeat veniam eius exercitationem. Lorem ipsum
+                        dolor sit amet consectetur adipisicing elit. Totam, nisi asperiores veniam omnis eius nihil
+                        sapiente iste assumenda et repellat dolorum adipisci earum quasi nostrum, eligendi voluptate
+                        eos. Modi, dicta! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam voluptatibus
+                        accusamus, eius id quidem architecto. Quos magni quia dicta voluptatibus id iure,
+                        consectetur,
+                        rerum odio mollitia fugiat ex tempora blanditiis.</p>
+                </div>
+
+                <div class="input-group input-group-lg cantidad">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Ingrese la cantidad</span>
+                    <input type="number" class="form-control cantidad1" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-lg" step="1" min="1" value="1" max="10">
+                </div>
+
+                <div class="botoncomprar"><a href="#" class="btn btn-primary botoncomprar">Agregar a carrito</a></div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- Offcanvas responsive -->
+    <div class="offcanvas offcanvas-start tablamenu" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+        aria-labelledby="offcanvasWithBothOptionsLabel">
+
+
+
+        <div>
+
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">MENU</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+            <div class="buscador2">
+                <form class="d-flex buscador2" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success botonbuscador2" type="submit">BUSCAR</button>
+                </form>
+            </div>
+
+
+            <div class="itemsresponsive">
+                <button class=" linksresponsive "> <a href="#">Libros</a></button>
+                <button class=" linksresponsive "><a href="#">Juguetes</a></button>
+                <button class=" linksresponsive "><a href="#">Articulos Escolares</a></button>
+            </div>
+
+        </div>
+
+        <div class="registroinicioresponsive">
+            <button class="registrorespon"><a href="registro.html">Registrar</a></button>
+            <button class="loginrespon"><a href="login.html">Iniciar Sesión</a></button>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
